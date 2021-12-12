@@ -32,6 +32,14 @@ const routes: Routes = [
     path: 'tutorial',
     loadChildren: () => import('./pages/tutorial/tutorial.module').then(m => m.TutorialModule),
     canLoad: [CheckTutorial]
+  },
+  {
+    path: 'cal-modal',
+    loadChildren: () => import('./modals/cal-modal/cal-modal.module').then( m => m.CalModalPageModule),
+  },
+  {
+    path: 'modal-timer',
+    loadChildren: () => import('./modals/modal-timer/modal-timer.module').then( m => m.ModalTimerPageModule)
   }
 ];
 

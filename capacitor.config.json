@@ -1,0 +1,6 @@
+{
+  "appId": "com.shifthourtracker.app",
+  "appName": "ShiftHourTracker",
+  "webDir": "www",
+  "bundledWebRuntime": false
+}
